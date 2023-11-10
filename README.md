@@ -1,4 +1,7 @@
-# Getting started
+# My Senior Design Project in Computer Science for Prof. Eamon Keogh at the University of California, Riverside 2023
+Code From: https://github.com/Quidifer/Cranium
+
+## Getting started
 
 This project is a combination of a basic NodeJS server & a React native app.
 
@@ -12,7 +15,7 @@ After this has completed, make sure to start the database with `yarn db:start`
 ### Once the dependencies are installed and the database is online, you are ready!
 - Running `yarn start` will start up the NodeJS server. Opening a web browser to the address generated (ie: https://localhost:3001) will display the client.
 
-# Development Environment
+## Development Environment
 
 ### Client
 - To edit the React client and recompile the program after each change, run `yarn dev:client`.
