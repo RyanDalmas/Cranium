@@ -1,5 +1,7 @@
 # My Senior Design Project in Computer Science for Prof. Eamon Keogh at the University of California, Riverside 2023
 Code From: https://github.com/Quidifer/Cranium
+Video Demo: https://www.youtube.com/watch?v=K4nmO4AdhR0&pp=ygURY2hyaXN0b3BoZXIgbW91cmk%3D
+Training Video Demo: https://www.youtube.com/watch?v=putMakfWRXw&pp=ygURY2hyaXN0b3BoZXIgbW91cmk%3D
 
 ## Getting started
 
