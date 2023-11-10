@@ -1,0 +1,53 @@
+.CraneContent {
+  background-color: black;
+
+  height: 100%;
+  width: 100%;
+}
+
+.ground {
+  background-color: #2e2d2d;
+}
+
+@keyframes slideRight {
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes Jiggle {
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+
+.fog-enter-active {
+  animation: slideRight 60s forwards linear;
+}
+
+.cloudshort {
+  animation: Jiggle 30s forwards linear infinite;
+}
+
+.cloudlong {
+  animation: Jiggle 80s forwards linear infinite;
+}
+
+.cloudshort {
+  animation: Jiggle 30s forwards linear infinite;
+}
+
+.cloudlong {
+  animation: Jiggle 80s forwards linear infinite;
+}
+
+.DraggingClassCrate:active{
+  cursor: grabbing;
+}
+
+.zoomInOutButtons{
+  cursor: pointer;
+}

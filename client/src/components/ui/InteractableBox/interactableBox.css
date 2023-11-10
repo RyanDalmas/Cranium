@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+
+.move {
+  height: 150px;
+  width: 265px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.invisible {
+  height: 150px;
+  width: 265px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.stationary {
+  height: 150px;
+  width: 265px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 10px;
+  background-color: white;
+}
+.destroy {
+  height: 150px;
+  width: 265px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.moveFar {
+  height: 150px;
+  width: 265px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.fastmove {
+  height: 150px;
+  width: 265px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 10px;
+  background-color: white;
+}
+.fastdestroy {
+  height: 150px;
+  width: 265px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.moveFar-enter-active {
+  transform: translateX(0px) translateY(-192px);
+  transition: transform 2000ms;
+}
+.move-enter-active {
+  transform: translateX(0px) translateY(-170px);
+  transition: transform 2000ms;
+}
+.destroy-enter-active {
+  transform: scale(0);
+  transition: transform 2000ms;
+}
+.fastmove-enter-active {
+  transform: translateX(0px) translateY(-172px);
+  transition: transform 500ms;
+}
+.fastdestroy-enter-active {
+  transform: scale(0);
+  transition: transform 500ms;
+}
+
+.GreenBox {
+  height: 190px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 2px solid;
+  border-color: rgb(5, 245, 5);
+  border-radius: 10px;
+}
+
+.info {
+  margin-top: 3%;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.boxHead {
+  top: 7%;
+  font-size: 1.3rem;
+}
+
+.infoContent {
+  font-family: work sans;
+  margin-top: 5px;
+  margin-left: 5%;
+  width: 100%;
+}
+
+/* load */
+.stationary {
+  height: 90px;
+  width: 235px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 12px 10px;
+  overflow: hidden;
+}
+
+.fastmove {
+  height: 90px;
+  width: 235px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 12px 10px;
+  overflow: hidden;
+}
+.fastdestroy {
+  height: 90px;
+  width: 235px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 12px 10px;
+  overflow: hidden;
+}
+
+.fastmove-enter-active {
+  transform: translateX(0px) translateY(-120px);
+  transition: transform 500ms;
+}
+.fastdestroy-enter-active {
+  transform: scale(0);
+  transition: transform 500ms;
+}

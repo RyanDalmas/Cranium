@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+.viewButton {
+  font-size: 17px;
+  font-family: work sans;
+  height: 55px;
+  width: 130px;
+  border-radius: 200px;
+  border: 0;
+  background-color: #9b9b9b;
+  color: white;
+  margin: 0 5px;
+  padding: 0;
+  touch-action: manipulation;
+  transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+.viewButton:hover {
+  font-size: 17px;
+  height: 55px;
+  width: 130px;
+  border-radius: 200px;
+  border: 0;
+  background-color: white;
+  color: #9b9b9b;
+  margin: 0 5px;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 8px 15px;
+  cursor: pointer;
+}
+
+.modal {
+  font-size: 12px;
+  background-color: white;
+  /* border: solid 3.5px; */
+  width: calc(100vw - 350px);
+  height: calc(100vh - 150px);
+  padding: 30px;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 28px 12px;
+}
+.modal > .modalHeader {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.modal > .modalContent {
+  overflow: auto;
+  border: dashed;
+  width: calc(100vw - 500px);
+  height: calc(100vh - 310px);
+  display: block;
+  margin: 0px auto;
+  padding: 25px;
+  font-size: 20px;
+  white-space: pre-line;
+}
+
+.modalContent > .modalTable {
+  border: 2px solid black;
+  width: calc(100vw - 700px);
+  margin: 0px auto;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.modalTable th {
+  border-bottom: 2px solid;
+  padding: 5px;
+}
+.modalTable td {
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  padding: 5px;
+  overflow: auto;
+}
+
+/* .modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+} */

@@ -1,0 +1,279 @@
+.leftcrate0 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftcrate1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftcrate2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightcrate0 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightcrate1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightcrate2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.crate {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftrope0 {
+  position: absolute;
+  background-color: black;
+  display: flex;
+}
+.leftrope1 {
+  position: absolute;
+  background-color: black;
+  display: flex;
+}
+.leftrope2 {
+  position: absolute;
+  background-color: black;
+  display: flex;
+}
+.rightrope0 {
+  position: absolute;
+  background-color: black;
+  display: flex;
+}
+.rightrope1 {
+  position: absolute;
+  background-color: black;
+  display: flex;
+}
+.rightrope2 {
+  position: absolute;
+  background-color: black;
+  display: flex;
+}
+
+/* ghost stuff */
+.ghostleftcrate0 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ghostleftcrate1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ghostleftcrate2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ghostrightcrate0 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ghostrightcrate1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ghostrightcrate2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ghostcrate {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ghostleftrope0 {
+  position: absolute;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+}
+.ghostleftrope1 {
+  position: absolute;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+}
+.ghostleftrope2 {
+  position: absolute;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+}
+.ghostrightrope0 {
+  position: absolute;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+}
+.ghostrightrope1 {
+  position: absolute;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+}
+.ghostrightrope2 {
+  position: absolute;
+  background-color: rgb(100, 100, 100);
+  display: flex;
+}
+
+@keyframes slideUp {
+  100% {
+    top: 0;
+  }
+}
+@keyframes slideLeft {
+  100% {
+    left: 0;
+  }
+}
+@keyframes slideRight {
+  100% {
+    left: 100%;
+  }
+}
+@keyframes slideDown {
+  100% {
+    top: 100%;
+  }
+}
+
+.leftcrate0-enter-active {
+  animation: slideUp 2s forwards linear;
+}
+.leftcrate1-enter-active {
+  animation: slideLeft 2s forwards linear;
+}
+.leftcrate2-enter-active {
+  animation: slideDown 2s forwards linear;
+}
+.rightcrate0-enter-active {
+  animation: slideUp 2s forwards linear;
+}
+.rightcrate1-enter-active {
+  animation: slideRight 2s forwards linear;
+}
+.rightcrate2-enter-active {
+  animation: slideDown 2s forwards linear;
+}
+
+.ghostleftcrate0-enter-active {
+  animation: slideUp 1s forwards linear;
+}
+.ghostleftcrate1-enter-active {
+  animation: slideLeft 1s forwards linear;
+}
+.ghostleftcrate2-enter-active {
+  animation: slideDown 1s forwards linear;
+}
+.ghostrightcrate0-enter-active {
+  animation: slideUp 1s forwards linear;
+}
+.ghostrightcrate1-enter-active {
+  animation: slideRight 1s forwards linear;
+}
+.ghostrightcrate2-enter-active {
+  animation: slideDown 1s forwards linear;
+}
+
+@keyframes moveUp {
+  100% {
+    height: 0%;
+  }
+}
+@keyframes moveLeft {
+  100% {
+    left: 0;
+  }
+}
+@keyframes moveRight {
+  100% {
+    left: 100%;
+  }
+}
+@keyframes moveDown {
+  100% {
+    height: 100%;
+  }
+}
+
+.leftrope0-enter-active {
+  animation: moveUp 2s forwards linear;
+}
+.leftrope1-enter-active {
+  animation: moveLeft 2s forwards linear;
+}
+.leftrope2-enter-active {
+  animation: moveDown 2s forwards linear;
+}
+.rightrope0-enter-active {
+  animation: moveUp 2s forwards linear;
+}
+.rightrope1-enter-active {
+  animation: moveRight 2s forwards linear;
+}
+.rightrope2-enter-active {
+  animation: moveDown 2s forwards linear;
+}
+.leftexcessRope-enter-active {
+  animation: moveLeft 2s forwards linear;
+}
+.rightexcessRope-enter-active {
+  animation: moveRight 2s forwards linear;
+}
+
+.ghostleftrope0-enter-active {
+  animation: moveUp 1s forwards linear;
+}
+.ghostleftrope1-enter-active {
+  animation: moveLeft 1s forwards linear;
+}
+.ghostleftrope2-enter-active {
+  animation: moveDown 1s forwards linear;
+}
+.ghostrightrope0-enter-active {
+  animation: moveUp 1s forwards linear;
+}
+.ghostrightrope1-enter-active {
+  animation: moveRight 1s forwards linear;
+}
+.ghostrightrope2-enter-active {
+  animation: moveDown 1s forwards linear;
+}
+
+.ghostleftexcessRope-enter-active {
+  animation: moveLeft 1s forwards linear;
+}
+.ghostrightexcessRope-enter-active {
+  animation: moveRight 1s forwards linear;
+}

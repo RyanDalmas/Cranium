@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+.App {
+  text-align: center;
+}
+
+/* counts */
+.table {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  left: 30%;
+}
+
+.loadLeftContent {
+  width: calc(100% - 300px);
+  height: 100%;
+  float: left;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.loadScreen {
+  height: calc(100vh - 95px);
+  width: 100%;
+  background-color: #f4f4f4;
+  position: relative;
+}
+
+.loadBoxContent {
+  /* height: calc(93% - 50px); */
+  height: inherit;
+  overflow-y: auto;
+}
+
+.columnButtonGroup {
+  height: 70%;
+  /* box-shadow: none !important; */
+  color: white;
+  background-color: #4c4c4c;
+  border-radius: 30px !important;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px 15px;
+  border: 3px;
+}
+
+.columnButtonFirst {
+  border-top-left-radius: 30px !important;
+  border-bottom-left-radius: 30px !important;
+  font-family: work sans !important;
+}
+
+
+.columnButtonLast {
+  border-top-right-radius: 30px !important;
+  border-bottom-right-radius: 30px !important;
+  font-family: work sans !important;
+}
+
+.loadGradient {
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(
+    to top,
+    rgba(155, 155, 155, 1) 0%,
+    rgba(155, 155, 155, 0) 100%
+  );
+  position: fixed;
+  top: auto;
+  bottom: 4%;
+}
+.loadGradient1 {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(
+    to top,
+    rgba(155, 155, 155, 1) 0%,
+    rgba(155, 155, 155, 0) 100%
+  );
+  position: fixed;
+  top: auto;
+  bottom: 4%;
+}
